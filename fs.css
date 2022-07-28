@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+}
+body{
+    background-color: rgb(233, 222, 222);
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+.header .option{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.header .option i{
+    color: white;
+    margin-right: 17px;
+    
+}
+.header .search{
+    margin-top: 15px;
+    margin-left: 12px;
+    padding-right: 15px;
+}
+.header .search i{
+    color: white;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+.container .firstitem h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container .firstitem p span{
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+.container .firstitem{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .pic{
+    margin-top: 50px;
+}
+.container .pic img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.container .pic h1{
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    color: white!important;
+    padding-top: 500px;
+    padding-left: 30px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.container .pic h1 #fs1{
+    font-size: 60px;
+    background-color:  rgb(233, 222, 222);
+    padding: 5px 5px;
+    color: #000;
+}
+
+.container .pic h1 #fs2{
+    font-size: 25px;
+    background-color:  rgb(233, 222, 222);
+   margin-top: 10px;
+    color: #000;
+    width: 120px;
+    text-align: center;
+    padding: 5px 5px;
+}
+.container .seconditem{
+    display: flex;
+    background-color: rgb(233, 222, 222);
+}
+
+.container .seconditem .left{
+    flex: 3;
+    border: 1px solid red; 
+    padding: 30px 20px 30px 20px;
+}
+.container .seconditem .right{
+    flex: 1;
+    border: 1px solid green;
+    padding: 10px 10px 10px 10px;
+}
+.container .seconditem .left .item1{
+    display: flex;
+    background-color: white;
+    flex-direction:  column;
+    align-items: center;
+}
+.container .seconditem .left .item1 .tilte{
+    font-size: 22px;
+}
+.container .seconditem .left .item1 .date span{
+    color: rgb(122, 116, 116);
+}
+.container .seconditem .left .item1 img{
+    width: 100%;
+    border-radius: 5px;
+    margin: 30px 30px;
+}
+.container .seconditem .left .item1 .dr, .dp{
+    margin-left: 5px;
+}
+.container .seconditem .left .item1 .connect{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    padding: 20px 22px;
+    border-bottom: 1px solid rgb(122, 116, 116);
+}
+.container .seconditem .left .item1 .connect .like{
+    padding: 5px 5px;
+    font-weight: 400;
+}
+.container .seconditem .left .item1 .connect .like i{
+    margin-right: 5px;
+}
+.container .seconditem .left .item1 .connect .reppli{
+    background-color: #000;
+    color: white;
+    padding: 10px ;
+}
+.container .seconditem .left .item1 .connect .reppli span{
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+.container .seconditem .left .item1 .cmt{
+    display: flex;
+    width: 100%;
+}
+.container .seconditem .left .item1 .cmt img{
+    width: 100px;
+    height: auto;
+    margin-left: 5px;
+}
+.container .seconditem .left .item1 .cmt .para{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.container .seconditem .left .item1 .cmt .para span{
+    font-size: 15px;
+    color: rgb(131, 127, 127);
+}
+
+
+
+
+
+.container .seconditem .left .item2{
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    flex-direction:  column;
+    align-items: center;
+}
+.container .seconditem .left .item2 .tilte{
+    font-size: 22px;
+}
+.container .seconditem .left .item2 .date span{
+    color: rgb(122, 116, 116);
+}
+.container .seconditem .left .item2 img{
+    width: 100%;
+    border-radius: 5px;
+    margin: 30px 30px;
+}
+.container .seconditem .left .item2 .dr, .dp{
+    margin-left: 5px;
+}
+.container .seconditem .left .item2 .connect{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    padding: 20px 22px;
+    border-bottom: 1px solid rgb(122, 116, 116);
+}
+.container .seconditem .left .item2 .connect .like{
+    padding: 5px 5px;
+    font-weight: 400;
+}
+.container .seconditem .left .item2 .connect .like i{
+    margin-right: 5px;
+}
+.container .seconditem .left .item2 .connect .reppli{
+    background-color: #000;
+    color: white;
+    padding: 10px ;
+}
+.container .seconditem .left .item2 .connect .reppli span{
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+.container .seconditem .left .item2 .cmt{
+    display: flex;
+    width: 100%;
+}
+.container .seconditem .left .item2 .cmt img{
+    width: 100px;
+    height: auto;
+    margin-left: 5px;
+}
+.container .seconditem .left .item2 .cmt .para{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.container .seconditem .left .item2 .cmt .para span{
+    font-size: 15px;
+    color: rgb(131, 127, 127);
+}
+
+
+
+.container .seconditem .left .item3{
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    flex-direction:  column;
+    align-items: center;
+}
+.container .seconditem .left .item3 .tilte{
+    font-size: 22px;
+}
+.container .seconditem .left .item3 .date span{
+    color: rgb(122, 116, 116);
+}
+.container .seconditem .left .item3 img{
+    width: 100%;
+    border-radius: 5px;
+    margin: 30px 30px;
+}
+.container .seconditem .left .item3 .dr, .dp{
+    margin-left: 5px;
+}
+.container .seconditem .left .item3 .connect{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    padding: 20px 22px;
+    border-bottom: 1px solid rgb(122, 116, 116);
+}
+.container .seconditem .left .item3 .connect .like{
+    padding: 5px 5px;
+    font-weight: 400;
+}
+.container .seconditem .left .item3 .connect .like i{
+    margin-right: 5px;
+}
+.container .seconditem .left .item3 .connect .reppli{
+    background-color: #000;
+    color: white;
+    padding: 10px ;
+}
+.container .seconditem .left .item3 .connect .reppli span{
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+.container .seconditem .left .item3 .cmt{
+    display: flex;
+    width: 100%;
+}
+.container .seconditem .left .item3 .cmt img{
+    width: 100px;
+    height: auto;
+    margin-left: 5px;
+}
+.container .seconditem .left .item3 .cmt .para{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.container .seconditem .left .item3 .cmt .para span{
+    font-size: 15px;
+    color: rgb(131, 127, 127);
+}
+.container .seconditem .right .st {
+    margin-top: 18px;
+    background-color: #000;
+    color: white;
+}
+.container .seconditem .right .st img{
+    width: 460px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+.container .seconditem .right .st .name{
+    margin-top: 10px;
+    font-weight: 800;
+    padding-left: 5px;
+
+}
+.container .seconditem .right .st .dr{
+    margin-top: 7px;
+    padding-left: 5px;
+}
+.container .seconditem .right .popular{
+    margin-top: 20px;
+}
+.container .seconditem .right .popular p{
+    background-color: #000;
+    font-size: 22px;
+    color: white;
+    padding: 15px 15px;
+}
+.container .seconditem .right .popular .item{
+    display: flex;
+    background-color: white;
+    padding: 15px 15px;
+    border-bottom: 1px solid rgb(172, 169, 169);
+}
+.container .seconditem .right .popular .item img{
+    width: 50px;
+    height: 55px;
+}
+.container .seconditem .right .popular .item p{
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    padding: 0;
+    font-weight: lighter;
+    margin-left: 5px;
+
+}
